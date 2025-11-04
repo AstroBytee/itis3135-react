@@ -1,0 +1,70 @@
+import self_at_restaraunt from './assets/self_at_restaraunt.png';
+
+export default function Introduction() {
+    return (
+        <>
+            <main>
+                <h2>Introduction</h2>
+                <h2>Ryan LaCroix || Regal Lynx</h2>
+                <figure>
+                    <img src={self_at_restaraunt} alt="Me at a Mediterranean restaraunt" />
+                    <figcaption>Me at a Mediterranean restaraunt</figcaption>
+                </figure>
+                <ul>
+                    <li>
+                        <b>Personal Background:</b>
+                        I was born in Saint Louis, Missouri, however I spent most of 
+                        my childhood in Charleston, South Carolina. I moved to North 
+                        Carolina around 5 years ago and have been living here ever since.
+                    </li>
+                    <li>
+                        <b>Professional Background:</b>
+                        Worked as a cashier and sandwich chef at Bruegger's Bagels in Cary, NC.
+                    </li>
+                    <li>
+                        <b>Academic Background:</b>
+                        I went to Green Level High School before coming here to UNC Charlotte. 
+                        I'm a computer science major with a concentration in cybersecurity. 
+                        I plan to graduate in 2028.
+                    </li>
+                    <li>
+                        <b>Courses I'm Taking, & Why:</b>
+                        <ol>
+                            <li>
+                                <b>STAT 2122 - Intro to Prob & Stat:</b>
+                                Required course.
+                            </li>
+                            <li>
+                                <b>ITIS 3135 - Front-End Web Application Development:</b>
+                                I wanted to learn more about front-end web development. 
+                                I've only touched the basics and I'm excited to learn more.
+                            </li>
+                            <li>
+                                <b>ITSC 2181 - Introduction to Computer Systems:</b>
+                                Required course. However, I'm still looking forward to it.
+                            </li>
+                            <li>
+                                <b>ARTA 1502 - Global Arts/Humanities: Art in a Global Context:</b>
+                                I needed a class to fulfill one of the Theme requirements for my major. 
+                                I thought it would be easy and I hope I will find it somewhat interesting.
+                            </li>
+                            <li>
+                                <b>MUSC 1512 - Local Arts/Humanities: Music in U.S. Communities:</b>
+                                Same as ARTA 1502. I needed one more class to fulfill my Theme requirements for my major.
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b>Funny/Interesting Item to Remember Me by:</b>
+                        I have a twin brother named Benjamin!
+                    </li>
+                </ul>
+        
+                <blockquote>
+                    "Not all those who wander are lost."
+                </blockquote>
+                <cite>— J.R.R. Tolkien</cite>
+            </main>
+        </>
+    )
+}
