@@ -1,4 +1,5 @@
 export default function Contract() {
+    document.title = "Ryan LaCroix's Regal Lynx || ITIS3135 || Contract"
     return (
         <>
             <main>

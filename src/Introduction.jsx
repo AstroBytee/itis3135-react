@@ -1,6 +1,7 @@
 import self_at_restaraunt from './assets/self_at_restaraunt.png';
 
 export default function Introduction() {
+    document.title = "Ryan LaCroix's Regal Lynx || ITIS3135 || Introduction"
     return (
         <>
             <main>

@@ -1,4 +1,5 @@
 export default function Home() {
+    document.title = "Ryan LaCroix's Regal Lynx || ITIS3135 || Home"
     return (
         <>
             <main>
