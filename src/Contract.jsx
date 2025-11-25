@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export default function Contract() {
     document.title = "Ryan LaCroix's Regal Lynx || ITIS3135 || Contract"
     return (
@@ -5,7 +7,7 @@ export default function Contract() {
             <main>
                 <h2>Contract</h2>
                 <p>
-                    I, <a href="introduction.html">Ryan M. LaCroix</a> agree to abide by the terms of the course contract in my 
+                    I, <Link to="/introduction">Ryan M. LaCroix</Link> agree to abide by the terms of the course contract in my 
                     2025, ITIS 3135, Front-End Web Development with my instructor, Professor D.I. von Briesen.
                 </p>
                 <p>
